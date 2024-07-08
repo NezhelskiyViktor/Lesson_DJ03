@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'BadScript';
+    src: url('../fonts/BadScript-Regular.ttf') format('truetype');
+}
+aside {
+    float: left;
+    width: 20%;
+    padding: 1.5%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #D3FEE3, white);
+}
+aside img {
+    width: 40px;
+    float: left;
+}
+aside .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: body;
+    position: relative;
+    top: -5px;
+}
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+aside ul {
+    list-style: none;
+}
+aside li, aside a:link, aside a:visited {
+    margin-top: 20px;
+    text-decoration: none;
+    transition: transform .6s ease;
+    color: black;
+}
+aside li:hover, aside a:hover {
+    text-decoration: none;
+    transform: scale(1.15);
+}
+main {
+    text-align: center;
+    overflow: auto;
+}
+#underline {
+    font-family: 'BadScript', cursive;
+    border-bottom: 2px solid #000;
+}
+main .list {
+    text-align: left;
+    margin: auto;
+    width: 90%
+}
+
+footer {
+    width: 20%;
+    padding: 2.5%;
+    height: 80vh;
+    border-right: 5px solid #4d4d4d;
+}

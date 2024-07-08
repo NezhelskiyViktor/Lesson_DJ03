@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+<h3>Новости</h3>
+
+{% for item in all_news %}
+    <hr>
+    <h3>{{ item.title }}</h3>
+    <div class="list">
+        <p>{{ item.short_description }}</p>
+        <p>{{ item.text }}</p>
+        <p>{{ item.pub_date }}</p>
+    </div>
+    <p style="text-align: right"><strong>Нежельский В.А.</strong></p>
+{% endfor %}
+{% endblock %}
